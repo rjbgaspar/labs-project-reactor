@@ -10,10 +10,8 @@ import reactor.core.publisher.Mono;
 /**
  * See <a href="https://devdojo.com/ketonemaniac/reactor-onerrorcontinue-vs-onerrorresume">reactor-onerrorcontinue-vs-onerrorresume</a>
  */
-public class OnErrorContinueVsOnErrorResume {
-    private final Logger log = LoggerFactory.getLogger(OnErrorContinueVsOnErrorResume.class);
-
-
+public class OnErrorContinueVsOnErrorResumeTests {
+    private final Logger log = LoggerFactory.getLogger(OnErrorContinueVsOnErrorResumeTests.class);
 
     @Test
     void onErrorResume() {
